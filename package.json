@@ -1,0 +1,26 @@
+{
+  "name": "ci-cd-js-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  "test": "jest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugeiri58/ci-cd-js-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sugeiri58/ci-cd-js-demo/issues"
+  },
+  "homepage": "https://github.com/sugeiri58/ci-cd-js-demo#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
