@@ -2,9 +2,11 @@ name: Run ci-cd-js-demo
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   test:
@@ -22,6 +24,8 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Ejecutar pruebas
-        run: npm test
+      - name: Dar permisos a Jest
+        run: chmod +x ./node_modules/.bin/jest
 
+      - name: Ejecutar pruebas
+        run: npx jest
