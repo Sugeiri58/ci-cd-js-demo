@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run ci-cd-js-demo
 
 on:
   push:
@@ -24,3 +24,4 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
+
